@@ -2,13 +2,13 @@ using 'main.bicep'
 
 param sshRSAPublicKey = '<your RSA public key>'
 
-param tenantId = '<your tenant id>'
+param tenantId = '35c94e5b-8a33-4803-a89b-9815745d70ef'
 
 param windowsAdminUsername = 'arcdemo'
 
-param windowsAdminPassword = '<your windows admin password>'
+param windowsAdminPassword = 'Password@123456'
 
-param logAnalyticsWorkspaceName = '<your unique Log Analytics workspace name>'
+param logAnalyticsWorkspaceName = 'ArcBox Demo - Workspace'
 
 param flavor = 'ITPro'
 
